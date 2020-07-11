@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "awsreceipt",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "awsreceipt",
+    "apiName": "awsreceipt",
+    "functionArns": [
+        {
+            "lambdaFunction": "awsreceipt"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-receipts-dev-60548-authRole",
+        "unAuthRoleName": "amplify-receipts-dev-60548-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "awsreceipt",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
