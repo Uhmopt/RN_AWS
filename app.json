@@ -1,4 +1,5 @@
 {
   "name": "RNAmplify",
-  "displayName": "RNAmplify"
+  "displayName": "RNAmplify",
+  "senderID": "YOUR-GCM-ID"
 }
