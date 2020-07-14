@@ -6,5 +6,3 @@ To run apk
 
 
 
-We can connect via skype.
-My id is @rion^_^
